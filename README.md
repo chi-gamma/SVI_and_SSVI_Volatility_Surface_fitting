@@ -10,11 +10,17 @@ increasing the calibration accuracy for short maturites is also implemented foll
 
 ## References
 <a id="1">[1]</a> 
-Gatheral, J., Jacquier, A. (2013). 
-Arbitrage-free SVI volatility surfaces. 
-arXiv e-prints, arXiv:1204.06464.
+Gatheral, J. (2004). 
+A Parsimonious Arbitrage-Free Implied Volatility Parameterization
+with Application to the Valuation of Volatility Derivatives. 
+Presented at the Global Derivatives & Risk Management Conference, Madrid, Spain.
 
 <a id="2">[2]</a> 
+Gatheral, J., Jacquier, A. (2014). 
+Arbitrage-free SVI volatility surfaces. 
+Quantitative Finance, 14(1), 59-71.
+
+<a id="3">[3]</a> 
 Corbetta, J., Cohort, P., Laachir, I., Martini, C. (2019). 
 Robust calibration and arbitrage-free interpolation of SSVI slices. 
 Decisions in Economics and Finance, 42, 665–677.
