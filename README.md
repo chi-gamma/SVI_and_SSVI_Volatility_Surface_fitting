@@ -4,7 +4,7 @@ This project implements the SVI and surface SVI parametrization schemes introduc
 from one scheme to another and how to calibrate the parameters to raw option data while ensuring the absence of arbitrage. 
 
 The eSSVI parametrization which takes the SSVI a step further and makes the correlation parameter maturity dependent thereby 
-increasing the calibration accuracy for short maturites is also implemented following a robust calibration alorithm introduced in [2].
+increasing the calibration accuracy for short maturites is also implemented following a robust calibration alorithm introduced in [3].
 
 
 
