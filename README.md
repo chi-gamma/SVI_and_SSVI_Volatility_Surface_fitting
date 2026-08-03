@@ -1,11 +1,16 @@
 # Stochastic Volatility Inspired Parametrization
 
-This project implements the SVI and surface SVI parametrization schemes introduced in [1], showing how to convert parameters
-from one scheme to another and how to calibrate the parameters to raw option data while ensuring the absence of arbitrage. 
+This project implements the Stochastic Volatility Inspired (SVI), Surface Stochastic Volatility Inspired (SSVI), 
+and Extended Surface Stochastic Volatility Inspired (eSSVI) parameterization frameworks for arbitrage-free
+implied volatility surface calibration.
 
-The eSSVI parametrization which takes the SSVI a step further and makes the correlation parameter maturity dependent thereby 
-increasing the calibration accuracy for short maturites is also implemented following a robust calibration alorithm introduced in [3].
+The implementation includes parameter conversion between SVI formulations, 
+calibration to observed market option data, enforcement of static arbitrage constraints, 
+and robust optimization procedures for fitting implied volatility surfaces across strikes and maturities.
 
+The eSSVI framework extends SSVI by allowing the correlation parameter to vary with maturity, 
+improving calibration accuracy, particularly for short-dated maturities. 
+The implementation follows the robust calibration methodology proposed in the literature.
 
 
 ## References
